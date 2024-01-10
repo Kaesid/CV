@@ -312,3 +312,9 @@ p {
 .footer {
   visibility: hidden;
 }
+
+.experiences-section {
+  li {
+    list-style-type: disc;
+  }
+}
