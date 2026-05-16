@@ -168,6 +168,21 @@ p {
 .sidebar-wrapper .interests-list li:last-child {
   margin-bottom: 0;
 }
+.sidebar-wrapper .technical-skills-list li {
+  line-height: 1.35;
+}
+.sidebar-wrapper .technical-skills-list .skill-category {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.sidebar-wrapper .technical-skills-list .skill-items {
+  display: block;
+  min-width: 0;
+}
 
 .main-wrapper {
   background: #fff;

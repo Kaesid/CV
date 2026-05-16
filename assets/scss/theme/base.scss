@@ -164,6 +164,23 @@ p {
             }
         }
     }
+    .technical-skills-list {
+        li {
+            line-height: 1.35;
+        }
+        .skill-category {
+            display: block;
+            color: rgba(256, 256, 256, 0.7);
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 2px;
+        }
+        .skill-items {
+            display: block;
+            min-width: 0;
+        }
+    }
 }
 
 .main-wrapper {
