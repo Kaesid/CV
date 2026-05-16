@@ -72,13 +72,28 @@ p {
         margin-bottom: 15px;
     }
     .contact-list {
-        .svg-inline--fa  {
+        .contact-icon {
+            width: 18px;
+            flex: 0 0 18px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             margin-right: 5px;
+        }
+        .svg-inline--fa  {
             font-size: 18px;
             vertical-align: middle;
         }
+        .telegram-icon {
+            width: 14px;
+            height: 14px;
+            display: block;
+            margin-right: 0;
+        }
         li {
             margin-bottom: 15px;
+            display: flex;
+            align-items: center;
             &:last-child {
                 margin-bottom: 0;
             }

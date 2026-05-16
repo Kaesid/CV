@@ -85,10 +85,23 @@ p {
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
 }
-.sidebar-wrapper .contact-list .svg-inline--fa {
+.sidebar-wrapper .contact-list .contact-icon {
+  width: 18px;
+  flex: 0 0 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 5px;
+}
+.sidebar-wrapper .contact-list .svg-inline--fa {
   font-size: 18px;
   vertical-align: middle;
+}
+.sidebar-wrapper .contact-list .telegram-icon {
+  width: 14px;
+  height: 14px;
+  display: block;
+  margin-right: 0;
 }
 .sidebar-wrapper .contact-list li {
   margin-bottom: 15px;
